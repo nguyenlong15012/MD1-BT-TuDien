@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ta = ['bear','chimpanzee','elephant','fox','giraffe','hippopotamus','jaguar','lion']
+    let tv = ['Gấu','Hắc tinh tinh','Voi','Cáo','Hươu cao cổ','Hà Mã','Báo Đốm','Sư Tử']
+    console.log(tv.length);
+    console.log(ta.length);
+    let a = prompt('Nhập từ bạn muốn dịch');
+    let index = ta.indexOf(a);
+    if (index == -1){
+        alert('Không tìm thấy từ bạn cần tìm');
+    }else {
+        alert(tv[index]);
+    }
+
+</script>
+</body>
+</html>
